@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#shared-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#shared-table td, #shared-table th {
+  border: 1px solid #c1c0c0;
+  padding: 8px;
+}
+
+#shared-table tr:nth-child(even){
+  background-color: #e8e8e8;
+}
+
+#shared-table tr:hover {
+  background-color: #cfcece;
+}
+
+#shared-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #089864;
+  color: white;
+}
